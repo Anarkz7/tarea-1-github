@@ -32,15 +32,15 @@ public void setColor(Color color){
 this.color = color;
 }
 
-public abstract double perímetro();  
+public abstract double parimetro();  
 
-public abstract double área();  
+public abstract double area();  
 
 public int esMayorQue (Figura otraFigura) {
-	   if (this.área() > otraFigura.área())
+	   if (this.ï¿½rea() > otraFigura.ï¿½rea())
 		   return 1;
 	   else
-		   if (this.área() < otraFigura.área())
+		   if (this.ï¿½rea() < otraFigura.ï¿½rea())
 			   return -1;
 		   else
 			   return 0;

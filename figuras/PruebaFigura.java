@@ -57,7 +57,7 @@ System.out.println ("3) Cuadrado");
 System.out.println ("4) Salir");
 Scanner teclado = new Scanner (System.in);
 do {
-    System.out.print ("Introduzca una opci�n (1-4): ");
+    System.out.print ("Introduzca una opcion (1-4): ");
     opcion = teclado.nextInt();
     if (opcion < 1 || opcion > 4)
 	   System.out.println ("Debe introducir un numero entre 1 y 4");
